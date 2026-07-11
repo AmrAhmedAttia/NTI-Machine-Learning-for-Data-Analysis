@@ -1,26 +1,17 @@
-# Titanic Survival Prediction
+# NTI - Machine Learning for Data Analysis
 
-## Project Overview
-This project explores the Titanic dataset and builds a Machine Learning model to predict passenger survival.
+## Session 2 - NumPy Mini Project
 
-## Dataset
-- Titanic Dataset (CSV)
+**Activity:** From Fitness to Insights Using NumPy
 
-## Project Structure
-├── Data_Exploration.py
-├── titanic.csv
-└── README.md
+Topics Covered:
+- NumPy Arrays
+- Array Properties
+- Indexing & Slicing
+- Reshaping
+- Boolean Filtering
+- Statistical Functions
+- Data Insights
 
-## Topics Covered
-- Data Loading
-- Data Exploration (EDA)
-- Missing Values
-- Data Visualization
-- Feature Analysis
-
-## Tools
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
+Notebook:
+- mini-project_numpy.ipynb
