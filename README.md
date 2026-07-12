@@ -17,7 +17,8 @@ NTI-Machine-Learning-for-Data-Analysis/
 │   └── Data_Exploration.ipynb
 │
 ├── Session-02/
-│   └── mini-project_numpy.ipynb
+│   ├── mini-project_numpy.ipynb
+│   └── README.md
 │
 ├── datasets/
 │   └── titanic.csv
@@ -31,10 +32,10 @@ NTI-Machine-Learning-for-Data-Analysis/
 
 ## Sessions
 
-| Session | Topic | Status |
-|---------|-------|--------|
-| Session 01 | Python Data Exploration | ✅ Completed |
-| Session 02 | NumPy Mini Project – From Fitness to Insights Using NumPy | ✅ Completed |
+| Session | Project | Status |
+|---------|---------|--------|
+| Session 01 | Python Data Exploration | Completed |
+| Session 02 | From Fitness to Insights Using NumPy | Completed |
 
 ---
 
@@ -43,13 +44,14 @@ NTI-Machine-Learning-for-Data-Analysis/
 - Python
 - NumPy
 - Jupyter Notebook
-- Git & GitHub
+- Git
+- GitHub
 
 ---
 
 ## Repository Goal
 
-This repository documents my learning progress throughout the NTI scholarship by collecting all practical exercises, assignments, mini projects, and future machine learning projects in one place.
+This repository documents my learning progress throughout the NTI scholarship by collecting practical exercises, assignments, mini projects, and future machine learning projects in one place.
 
 ---
 
@@ -57,5 +59,9 @@ This repository documents my learning progress throughout the NTI scholarship by
 
 **Amr Ahmed Abdelhamid**
 
-- 🔗 GitHub: [AmrAhmedAttia](https://github.com/AmrAhmedAttia)
-- 💼 LinkedIn: [Amr Ahmed Attia](https://www.linkedin.com/in/amr-ahmed-attia-71226232a)
+- GitHub: [AmrAhmedAttia](https://github.com/AmrAhmedAttia)
+- LinkedIn: [Amr Ahmed Attia](https://www.linkedin.com/in/amr-ahmed-attia-71226232a)
+
+---
+
+This repository will be continuously updated throughout the NTI Machine Learning for Data Analysis scholarship with new sessions, projects, and practical assignments.
