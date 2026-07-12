@@ -1,45 +1,83 @@
-# From Fitness to Insights Using NumPy
-
 ## Overview
 
-This mini project was completed as part of the **Machine Learning for Data Analysis** scholarship offered by the **National Telecommunication Institute (NTI)** under the **Digital Egypt Youth Initiative (DEYI)**.
+This mini project was completed as part of **Session 02** of the **Machine Learning for Data Analysis Scholarship** offered by the **National Telecommunication Institute (NTI)**.
 
-The project demonstrates the fundamentals of **NumPy** through analyzing a fitness dataset.
+The project focuses on using **NumPy** to analyze player performance data, calculate a weighted talent score, rank players, and build the best possible squad while following the coach's selection rules.
 
-##  Dataset
+---
 
-The dataset contains 7 days of fitness data with the following features:
+## Objective
 
-- Steps
-- Calories Burned
-- Sleep Hours
+Analyze the performance of 12 players using four physical metrics:
 
-## Objectives
+* Sprint Speed
+* Endurance
+* Strength
+* Agility
 
-- Explore NumPy arrays
-- Check array dimensions and shape
-- Slice rows and columns
-- Reshape arrays
-- Filter data using conditions
-- Calculate statistical measures
-- Extract simple insights from the data
+Then:
 
-## Technologies Used
+* Clean the dataset
+* Calculate a weighted Talent Score
+* Create a structured NumPy array
+* Filter and sort players
+* Select the final 6-player squad
+* Compare the selected squad with the remaining players
 
-- Python
-- NumPy
-- Jupyter Notebook
+---
 
-## Key Results
+## Technologies
 
-- Calculated average and maximum daily steps.
-- Identified days with more than 8000 steps.
-- Filtered days with less than 6 hours of sleep.
-- Computed statistical measures such as mean, standard deviation, and range.
-- Generated basic insights from the fitness dataset.
+* Python 3
+* NumPy
+* Jupyter Notebook
+
+---
+
+## Project Structure
+
+```
+Session-02/
+│
+├── Scouting_Academy_Next_Star_NumPy.ipynb
+└── README.md
+```
+
+---
+
+## NumPy Concepts Used
+
+* NumPy Arrays
+* Array Indexing & Slicing
+* Array Copying
+* Data Cleaning with `np.clip()`
+* Broadcasting
+* Weighted Calculations
+* Structured Arrays
+* Record Arrays
+* Boolean Indexing
+* Sorting Arrays
+* Statistical Analysis
+
+---
+
+## Learning Outcomes
+
+After completing this project, I practiced how to:
+
+* Explore and clean numerical datasets
+* Apply weighted calculations using broadcasting
+* Organize data with structured arrays
+* Filter and rank records efficiently
+* Apply selection rules to solve a real-world scenario
+* Compare statistical results between different groups
+
+---
 
 ## Author
 
 **Amr Ahmed Abdelhamid**
 
-NTI – Machine Learning for Data Analysis
+Machine Learning for Data Analysis Scholarship
+
+National Telecommunication Institute (NTI)
