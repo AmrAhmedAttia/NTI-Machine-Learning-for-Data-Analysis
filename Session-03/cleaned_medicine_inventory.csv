@@ -1,0 +1,16 @@
+Medicine,Price,Quantity,Category,Inventory_Value
+Paracetamol,25.0,20.0,Pain Relief,500.0
+Ibuprofen,35.0,1.0,Pain Relief,35.0
+Amoxicillin,80.0,12.0,Antibiotics,960.0
+Vitamin C,50.0,30.0,Supplements,1500.0
+Insulin,61.785714285714285,5.0,Diabetes,308.92857142857144
+Cough Syrup,65.0,8.0,Cold & Flu,520.0
+Antacid,30.0,15.0,Digestive,450.0
+Eye Drops,45.0,1.0,Eye Care,45.0
+Bandages,10.0,50.0,First Aid,500.0
+Hand Sanitizer,20.0,25.0,Hygiene,500.0
+Face Mask,5.0,100.0,Hygiene,500.0
+Thermometer,120.0,6.0,Medical Equipment,720.0
+Blood Pressure Monitor,250.0,1.0,Medical Equipment,250.0
+Glucose Test Strips,90.0,18.0,Diabetes,1620.0
+Multivitamins,40.0,22.0,Supplements,880.0
