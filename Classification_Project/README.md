@@ -173,4 +173,4 @@ streamlit run app.py
 
 ---
 
-⭐ If you found this project useful, don't forget to star the repository!
+⭐ If you found this project useful, don't forget to star the repository! occupancy occupancy detection features

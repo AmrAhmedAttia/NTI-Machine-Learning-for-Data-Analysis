@@ -1,0 +1,8 @@
+Run these commands inside the regression_project folder:
+
+git init
+git add .
+git commit -m "Add California housing regression Streamlit project"
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/regression_project.git
+git push -u origin main
