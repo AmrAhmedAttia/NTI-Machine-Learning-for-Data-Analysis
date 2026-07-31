@@ -1,119 +1,166 @@
-# California Housing Regression Project 🏠
+# 🏠 California Housing Price Prediction
 
-A machine learning regression project that predicts California median house values and compares four models:
+A Machine Learning Regression project that predicts **California median house prices** using multiple regression algorithms and provides an interactive web application built with **Streamlit**.
+
+## 🚀 Live Demo
+
+🔗 https://nti-machine-learning-for-data-analysis-bvhcyf4iwysqu6sn6xjf6y.streamlit.app/
+
+---
+
+## 📌 Project Overview
+
+This project compares multiple regression algorithms to predict housing prices using the California Housing dataset.
+
+The workflow includes:
+
+- Data preprocessing
+- Feature engineering
+- Model training
+- Model evaluation
+- Interactive prediction with Streamlit
+
+---
+
+## 🤖 Machine Learning Models
+
+The following models were trained and evaluated:
 
 - Linear Regression
 - Decision Tree Regressor
 - Random Forest Regressor
 - XGBoost Regressor
 
-The repository includes an exploratory notebook and an interactive Streamlit application for model comparison, feature-importance visualization, and live predictions.
+🏆 **Best Model:** XGBoost
 
-## Project Results
+---
 
-Results recorded in the original notebook:
+## 📊 Model Performance
 
-| Model | MAE | RMSE | R² |
-|---|---:|---:|---:|
-| XGBoost | 31,887.39 | 48,266.27 | **0.8222** |
-| Random Forest | **31,631.02** | 49,008.79 | 0.8167 |
-| Decision Tree | 44,120.68 | 69,680.88 | 0.6295 |
-| Linear Regression | 50,670.74 | 70,060.52 | 0.6254 |
+| Metric | Value |
+|---------|-------|
+| Best Model | XGBoost |
+| R² Score | **0.8339** |
+| RMSE | **46,647** |
+| MAE | **30,894** |
 
-XGBoost achieved the highest R² score in the notebook experiment.
+---
 
-## Repository Structure
+## ✨ Streamlit Features
+
+- 📂 Upload your own housing dataset
+- 📈 Compare multiple regression models
+- 📊 Display model evaluation metrics
+- 🔍 Explore the dataset
+- 🏠 Predict California house prices instantly
+- 📉 Visualize Feature Importance
+
+---
+
+## 📁 Project Structure
 
 ```text
 regression_project/
+│
 ├── app.py
 ├── model_utils.py
 ├── requirements.txt
 ├── README.md
 ├── .gitignore
+│
 ├── data/
 │   └── housing.csv
+│
 ├── models/
 │   ├── best_regression_model.pkl
 │   └── scaler_regression.pkl
+│
 └── notebooks/
     └── housing_regression_analysis.ipynb
 ```
 
-## Dataset
+---
 
-The app expects the California Housing CSV commonly available as `housing.csv` with these columns:
+## 🛠️ Technologies Used
 
-```text
-longitude, latitude, housing_median_age, total_rooms, total_bedrooms,
-population, households, median_income, ocean_proximity, median_house_value
-```
+- Python
+- Pandas
+- NumPy
+- Scikit-Learn
+- XGBoost
+- Streamlit
+- Matplotlib
 
-You can either:
+---
 
-1. Put `housing.csv` in the project root, or
-2. Upload it from the Streamlit sidebar after starting the app.
+## ⚙️ Installation
 
-## Run Locally
+Clone the repository
 
 ```bash
-# Clone the repository
-git clone https://github.com/YOUR_USERNAME/regression_project.git
+git clone https://github.com/AmrAhmedAttia/NTI-Machine-Learning-for-Data-Analysis.git
+```
+
+Go to the project
+
+```bash
 cd regression_project
+```
 
-# Create and activate a virtual environment
-python -m venv .venv
+Install dependencies
 
-# Windows
-.venv\Scripts\activate
-
-# macOS/Linux
-source .venv/bin/activate
-
-# Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
-# Start Streamlit
+Run the application
+
+```bash
 streamlit run app.py
 ```
 
-Then open the local URL shown in your terminal, usually `http://localhost:8501`.
+---
 
-## Streamlit Features
+## 📂 Dataset
 
-- Upload the housing dataset directly from the sidebar
-- Automatically train and compare four regression models
-- Display MAE, MSE, RMSE, and R²
-- Select the best model by R² score
-- Show feature importance when supported
-- Predict a median house value from user inputs
+The project uses the **California Housing Dataset**.
 
-## Methodology
+Required columns:
 
-1. Validate the dataset columns.
-2. Split the data into training and testing sets using an 80/20 split.
-3. Impute missing numeric values with the median.
-4. Standardize numeric features.
-5. One-hot encode `ocean_proximity`.
-6. Train and evaluate four regression algorithms.
-7. Select the model with the highest test R² score.
+- longitude
+- latitude
+- housing_median_age
+- total_rooms
+- total_bedrooms
+- population
+- households
+- median_income
+- ocean_proximity
+- median_house_value
 
-## Deploy on Streamlit Community Cloud
+---
 
-1. Push this repository to GitHub.
-2. Sign in to Streamlit Community Cloud.
-3. Create a new app and select your repository.
-4. Set the main file path to `app.py`.
-5. Deploy the app.
+## 📸 Application Preview
 
-Because the dataset may not be committed, users can upload `housing.csv` directly through the deployed application.
+After deployment, the application provides:
 
-## Author
+- Interactive prediction interface
+- Model comparison dashboard
+- Dataset overview
+- Feature importance visualization
+
+---
+
+## 👨‍💻 Author
 
 **Amr Ahmed Attia**
 
 Computer Science & Artificial Intelligence Student
 
-## License
+- GitHub: https://github.com/AmrAhmedAttia
 
-This project is intended for educational and portfolio use.
+---
+
+## ⭐ If you like this project
+
+Give the repository a ⭐ on GitHub.
