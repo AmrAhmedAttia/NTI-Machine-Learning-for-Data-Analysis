@@ -14,8 +14,21 @@ def load_model():
 
 try:
     model, scaler = load_model()
-except FileNotFoundError:
-    st.error("⚠️ لم يتم العثور على ملفات النموذج (best_classification_model.pkl أو scaler.pkl). يرجى التأكد من تشغيل كود التدريب أولاً وتواجد الملفات في نفس المجلد.")
+except Exception as e:
+    st.error("❌ Failed to load model")
+    st.exception(e)
+
+    from pathlib import Path
+    import os
+
+    BASE_DIR = Path(__file__).parent
+
+    st.write("Current working directory:")
+    st.code(os.getcwd())
+
+    st.write("Files inside project folder:")
+    st.write(os.listdir(BASE_DIR))
+
     st.stop()
 
 
