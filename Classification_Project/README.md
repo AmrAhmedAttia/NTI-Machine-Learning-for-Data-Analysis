@@ -4,24 +4,39 @@
 
 This project predicts whether a room is **Occupied** or **Empty** using environmental sensor readings.
 
-The dataset contains measurements collected from different sensors inside a room, and the goal is to classify the room occupancy status.
+The dataset contains measurements collected from different sensors inside a room, and the goal is to classify the room occupancy status using Machine Learning classification algorithms.
+
+---
+
+## 🚀 Live Demo
+
+Try the deployed Streamlit application here:
+
+🔗 https://nti-machine-learning-for-data-analysis-gwru4tpcgwnhp7c4r8ia5d.streamlit.app/
+
+---
+
+## 📂 GitHub Repository
+
+🔗 https://github.com/AmrAhmedAttia/NTI-Machine-Learning-for-Data-Analysis
 
 ---
 
 ## 📂 Dataset Features
 
-* Temperature
-* Humidity
-* Light
-* CO2
-* Humidity Ratio
+Input Features:
 
-**Target:**
+- Temperature
+- Humidity
+- Light
+- CO2
+- Humidity Ratio
 
-* Occupancy
+Target:
 
-  * 0 = Empty
-  * 1 = Occupied
+- Occupancy
+  - **0 = Empty**
+  - **1 = Occupied**
 
 ---
 
@@ -29,12 +44,12 @@ The dataset contains measurements collected from different sensors inside a room
 
 The following preprocessing steps were applied:
 
-* Data Exploration (EDA)
-* Checking Missing Values
-* Checking Duplicate Values
-* Feature Selection
-* Train/Test Split
-* Feature Scaling using StandardScaler
+- Data Exploration (EDA)
+- Checking Missing Values
+- Checking Duplicate Values
+- Feature Selection
+- Train/Test Split
+- Feature Scaling using StandardScaler
 
 ---
 
@@ -42,39 +57,42 @@ The following preprocessing steps were applied:
 
 The following classification models were trained and compared:
 
-* Logistic Regression
-* Decision Tree Classifier
-* Random Forest Classifier
-* XGBoost Classifier
+- Logistic Regression
+- Decision Tree Classifier
+- Random Forest Classifier
+- XGBoost Classifier
+
+---
+
+## 📊 Evaluation Metrics
 
 The models were evaluated using:
 
-* Accuracy
-* Precision
-* Recall
-* F1-Score
-* ROC-AUC Score
-* Confusion Matrix
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- ROC-AUC Score
+- Confusion Matrix
 
 ---
 
 ## 🏆 Best Model
 
-The best-performing model was saved using Joblib as:
+After comparing all models, the best-performing model was selected and saved.
 
-* `best_classification_model.pkl`
+Saved files:
 
-The scaler used during preprocessing was also saved as:
-
-* `scaler.pkl`
+- `best_classification_model.pkl`
+- `scaler.pkl`
 
 ---
 
 ## 🌐 Streamlit Application
 
-A simple Streamlit application was developed to allow users to enter sensor readings and predict whether the room is occupied.
+A Streamlit web application was developed to allow users to enter sensor readings and predict whether the room is occupied.
 
-Run the application using:
+Run the application locally:
 
 ```bash
 streamlit run app.py
@@ -89,7 +107,7 @@ Classification_Project/
 │
 ├── app.py
 ├── Occupancy_Classification.ipynb
-├── occupancy.csv
+├── Occupancy.csv
 ├── best_classification_model.pkl
 ├── scaler.pkl
 ├── requirements.txt
@@ -100,16 +118,16 @@ Classification_Project/
 
 ## 📦 Required Libraries
 
-* pandas
-* numpy
-* matplotlib
-* seaborn
-* scikit-learn
-* xgboost
-* streamlit
-* joblib
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
+- xgboost
+- streamlit
+- joblib
 
-Install them using:
+Install all dependencies:
 
 ```bash
 pip install -r requirements.txt
@@ -117,10 +135,42 @@ pip install -r requirements.txt
 
 ---
 
+## ▶️ How to Run
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/AmrAhmedAttia/NTI-Machine-Learning-for-Data-Analysis.git
+```
+
+2. Navigate to the project folder
+
+```bash
+cd Classification_Project
+```
+
+3. Install the required libraries
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Run the Streamlit application
+
+```bash
+streamlit run app.py
+```
+
+---
+
 ## 👨‍💻 Author
 
-**Amr Ahmed**
+**Amr Ahmed Attia**
 
-Faculty of Computers and Artificial Intelligence
+- Faculty of Computers and Artificial Intelligence
+- Menoufia National University
+- NTI Machine Learning for Data Analysis Scholarship
 
-NTI Machine Learning Project
+---
+
+⭐ If you found this project useful, don't forget to star the repository!
